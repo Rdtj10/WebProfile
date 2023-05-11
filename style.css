@@ -1,0 +1,98 @@
+html {
+  background-color: lightgrey;
+}
+
+body {
+    font-family:  -apple-system, BlinkMacSystemFont, “Segoe UI”, “Roboto”, “Oxygen”, “Ubuntu”, “Cantarell”, “Fira Sans”, “Droid Sans”, “Helvetica Neue”, sans-serif;
+    text-align: center; 
+    margin: 2% 15%;
+    background-color: #003B6F ;
+	color: antiquewhite;
+    border-radius: 15px;
+    padding: 5px 20px;
+}
+
+h1 {
+	color: antiquewhite;
+	text-decoration: underline;
+}
+
+a {
+    color:  #E60028;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline !important;
+}
+
+.container {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+}
+
+.content {
+	text-align: left !important;
+	background-color: antiquewhite;
+	color: black;
+	width: 43%;
+	height: 500px;
+	border-radius: 10px;
+	padding: 50px;
+	margin: 10px;
+}
+.list {
+	margin-top: 15px;
+	padding: 5px 0;
+	border-bottom: 1px solid black;
+}
+
+#desc {
+	color: antiquewhite;
+	font-size: 19px;
+}
+
+#profile-img {
+	border-radius: 50%;
+	width: 30%;
+	height: 30%;
+}
+#tagline {
+	color: antiquewhite;
+}
+#profile-social-icons .fab, .fa {
+	font-size: 26px !important; 
+	color: antiquewhite;
+	padding-bottom: 15px;
+}
+
+footer {
+	padding: 5px 0;
+	border-top: 1px dotted antiquewhite;
+}
+
+@media only screen and (max-width: 720px) {
+    body {
+    	margin: 1% 5% !important;
+	}
+	
+	#profile-img {
+		width: 50% !important;
+	}
+	
+	#profile-social-icons .fab, .fa {
+		/* !important Overrides existing internal or external CSS */
+		font-size: 21px !important; 
+		padding-bottom: 10px !important;
+	}
+}
+
+
+@media only screen and (max-width: 640px) {
+
+}
+
+@media only screen and (max-width: 330px) {
+    
+}
